@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useRef } from "react";
+import Banner from "./sections/Banner";
+import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
+import Fact from "./sections/Fact";
+import Features from "./sections/Features";
+import Team from "./sections/Team";
+import TransferEth from "./sections/TransferEth";
 function App() {
+  const bannerRef = useRef();
+  const factRef = useRef();
+  const transferRef = useRef();
+  const featuresRef = useRef();
+  const teamRef = useRef();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar
+        bannerRef={bannerRef}
+        factRef={factRef}
+        transferRef={transferRef}
+        featuresRef={featuresRef}
+        teamRef={teamRef}
+      />
+      <Banner bannerRef={bannerRef} transferRef={transferRef} />
+      <Fact factRef={factRef} />
+      <TransferEth transferRef={transferRef} />
+      <Features featuresRef={featuresRef} />
+      <Team teamRef={teamRef} />
+      <ScrollToTop />
     </div>
   );
 }
