@@ -20,7 +20,7 @@ const Toast = ({ type, message, setShowToast, link }) => {
       )}
       {type === "ERROR" && <CgDanger size={48} color="red" />}
       <p className={styles.message}>
-        {`${message.slice(0, 48)}...`}
+        {`${message.slice(0, 60)}`}
         {link && <a href={link}>here</a>}
       </p>
       <AiOutlineClose size={48} onClick={() => setShowToast(false)} />

@@ -6,6 +6,8 @@ import Fact from "./sections/Fact";
 import Features from "./sections/Features";
 import Team from "./sections/Team";
 import TransferEth from "./sections/TransferEth";
+import Footer from "./sections/Footer";
+
 function App() {
   const bannerRef = useRef();
   const factRef = useRef();
@@ -26,6 +28,7 @@ function App() {
       <TransferEth transferRef={transferRef} />
       <Features featuresRef={featuresRef} />
       <Team teamRef={teamRef} />
+      <Footer />
       <ScrollToTop />
     </div>
   );

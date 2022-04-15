@@ -8,14 +8,14 @@ const ConnectWalletButton = ({ transferRef }) => {
     if (!isAuthenticated && !isAuthenticating) {
       await authenticate({
         signingMessage: "Connect to the bsc using Metamask",
-        chainId: 97,
+        chainId: 56,
       });
     }
   };
 
   const scrollToTranfser = () => {
     window.scrollTo({
-      top: transferRef.current.offsetTop - 160,
+      top: transferRef.current.offsetTop - 75,
       behavior: "smooth",
     });
   };

@@ -1,9 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 const Navlink = ({ title, link, extraOffset }) => {
-  useEffect(() => {
-    console.log(link);
-  }, []);
   const scrollToTop = () => {
     if (link) {
       window.scrollTo({

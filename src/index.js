@@ -9,8 +9,8 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <MoralisProvider
-      serverUrl="https://fhdwnqtbmw2a.usemoralis.com:2053/server"
-      appId="HFUAnalrIhv6dFL1dLC9DI1MGB5a2RPaZbfDDzLh"
+      serverUrl="https://l7jf4xw2bx34.usemoralis.com:2053/server"
+      appId="vJtnxiCIxE3vOaa7KdBo0esCHrySaAbH928eldj9"
     >
       <App />
     </MoralisProvider>

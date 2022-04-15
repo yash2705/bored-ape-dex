@@ -33,17 +33,17 @@ const styles = {
 const facts = [
   {
     id: 1,
-    title: "9705+",
+    title: "4700+",
     description: "TOTAL REGISTERED USERS",
   },
   {
     id: 2,
-    title: "6690705M+",
+    title: "2.5M+",
     description: "TOTAL MONEY WITHDRAWN",
   },
   {
     id: 3,
-    title: "605+",
+    title: "80+",
     description: "DAILY ACTIVE INVESTORS",
   },
 ];

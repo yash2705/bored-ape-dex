@@ -10,9 +10,10 @@ const Features = ({ featuresRef }) => {
       />
       <div className={styles.largeFont}>FEATURES OF GAMING TOKEN</div>
       <div className={styles.smallFont}>
-        Cubilia dui pretium inventore ab atque aliquid mollit aliquid laborum?
-        Congue dicta! Laboriosam aliqua nulla dictum egestami sapiente! Nisi
-        vivamus nostrud
+        Bored Ape Token (BAT) is one of the most popular and biggest
+        cryptocurrency gaming tokens. BAT will develop tools that enable game
+        publishers, game servers, and communities to manage virtual goods and
+        in-game items across multiple platforms.
       </div>
       <div className={styles.cardContainer}>
         {features.map((feature) => {
@@ -41,33 +42,37 @@ const styles = {
 const features = [
   {
     id: 1,
-    title: "Curreny Conversion",
-    description: "Cdipiscing provident! Cras molestie odit dolores facilis",
+    title: "Currency Conversion",
+    description:
+      "Buy in-game items using BAT. Convert in-game items back to BAT Coins.",
   },
   {
     id: 2,
     title: "Transparency",
-    description: "Cdipiscing provident! Cras molestie odit dolores facilis",
+    description:
+      "Set up reports and commission systems that are completely transparent.",
   },
   {
     id: 3,
     title: "Gaming Machines",
-    description: "Cdipiscing provident! Cras molestie odit dolores facilis",
+    description:
+      "Gamify your website and mobile community with custom Bored Ape Token (BAT) Coins.",
   },
   {
     id: 4,
     title: "Powerful Security",
-    description: "Cdipiscing provident! Cras molestie odit dolores facilis",
+    description: "No fraud, chargebacks, or cancellations.",
   },
   {
     id: 5,
-    title: "100% Convinience",
-    description: "Cdipiscing provident! Cras molestie odit dolores facilis",
+    title: "100% Convenience",
+    description:
+      "Easily set up a site and mobile community with full virtual goods integration.",
   },
   {
     id: 6,
     title: "Support 24/7 Online",
-    description: "Cdipiscing provident! Cras molestie odit dolores facilis",
+    description: "Get in touch with  our team at any time on any day.",
   },
 ];
 

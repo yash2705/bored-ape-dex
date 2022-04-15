@@ -14,8 +14,8 @@ const Banner = ({ bannerRef, transferRef }) => {
           Best Investment For MetaVerse Gaming Token
         </div>
         <div className={styles.smallText}>
-          Mollit nostra at! Voluptatum euismod imperdiet Eiusmod nesciunt
-          facilisi praesent. Blanditiis cumque eiusmod volutpat dolore sit
+          Binance-based blockchain tokens power it – BATs and SLPs convertible
+          coins and ensure financial gains.
         </div>
         <ConnectWalletButton transferRef={transferRef} />
       </div>
